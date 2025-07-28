@@ -21,25 +21,40 @@
 
 StrabismusCare is an innovative AI-powered mobile application designed to revolutionize the screening and management of strabismus, a common eye condition affecting millions worldwide. By leveraging cutting-edge artificial intelligence, we provide accessible, efficient, and accurate diagnostic solutions that empower users to take control of their eye health while facilitating better communication with healthcare providers. [3]
 
+## 🎥 Demo Video
+
+<div align="center">
+  <a href="assets/StrabismasCareDemoVideo.mp4">
+    <img src="assets/StrabismasCare.jpg" alt="StrabismusCare Demo Video" width="600"/>
+  </a>
+  <br>
+  <p><em>Click to watch StrabismusCare in action</em></p>
+</div>
+
 ## ✨ Key Features
 
 ### 🔍 AI-Based Screening
+
 - **High Accuracy Detection**: Captures and analyzes corneal light reflection images to detect strabismus with 98% accuracy, 95.8% sensitivity, and 97.9% specificity
 - **Instant Results**: Provides immediate diagnostic feedback without requiring specialized equipment
 
 ### 📱 User-Friendly Interface
+
 - **Intuitive Design**: Simple navigation suitable for individuals of all ages
 - **Guided Process**: Clear step-by-step instructions for capturing high-quality diagnostic images
 
 ### 📊 Digital Health Records
+
 - **Secure Storage**: Safely maintains user data, including test results and medical history
 - **Progress Tracking**: Allows users to monitor their condition over time
 
 ### 👨‍⚕️ Patient-Physician Interaction
+
 - **Real-Time Communication**: Integrated chat feature for direct communication with healthcare providers
 - **Treatment Monitoring**: Facilitates follow-ups and provides timely feedback on treatment plans
 
 ### 📚 Educational Resources
+
 - **Knowledge Base**: Comprehensive information about strabismus, its effects, and management options
 - **Informed Decisions**: Empowers users with knowledge to make better choices about their eye health [6]
 
@@ -81,77 +96,23 @@ Cloud: AWS/Google Cloud for encrypted data management
 Communication: Socket.IO/Firebase Cloud Messaging
 ```
 
-## 📲 Installation
-
-### Prerequisites
+## 📲 Installation Prerequisites
 
 - Node.js (v14.0+)
 - Python (v3.8+)
 - Android Studio / Xcode (for emulation)
 - MongoDB (local or cloud instance)
 
-### AI Model Setup
-
-```bash
-# Clone the AI model repository
-git clone https://github.com/OptiHealth-Innovators/StrabismusCare-model
-cd StrabismusCare-model
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start the model server
-python app.py
-# Server will run at http://localhost:1024
-```
-
-### Backend Setup
-
-```bash
-# Clone the backend repository
-git clone https://github.com/OptiHealth-Innovators/StrabismusCare-backend
-cd StrabismusCare-backend
-
-# Install dependencies
-npm install
-npm install -g nodemon
-
-# Create .env file with required configuration
-echo "MONGO_URI=your_mongo_uri
-PORT=3000" > .env
-
-# Start the server
-nodemon app.js
-```
-
-### Frontend Setup
-
-```bash
-# Clone the frontend repository
-git clone https://github.com/OptiHealth-Innovators/StrabismusCareApp
-cd StrabismusCareApp
-
-# Install dependencies
-npm install
-
-# Create .env file with required configuration
-echo "ENV_BACKEND_URL=\"https://strabismuscare.onrender.com\"
-ENV_BACKEND_URL_LOCAL=\"http://<your-ip>:3000\"
-ENV_MODEL_URL=\"http://localhost:1024\"" > .env
-
-# Start the application
-npx expo start
-```
 
 ## 📊 Performance Metrics
 
-| Metric | Value |
-|--------|-------|
-| Accuracy | 98.0% |
-| Sensitivity | 95.8% |
-| Specificity | 97.9% |
-| Processing Time | <2 seconds |
-| User Satisfaction | 4.8/5.0 |
+| Metric            | Value      |
+| ----------------- | ---------- |
+| Accuracy          | 98.0%      |
+| Sensitivity       | 95.8%      |
+| Specificity       | 97.9%      |
+| Processing Time   | <2 seconds |
+| User Satisfaction | 4.8/5.0    |
 
 ## 🗺️ Roadmap
 
